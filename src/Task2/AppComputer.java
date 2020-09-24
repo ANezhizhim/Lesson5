@@ -9,6 +9,11 @@ public class AppComputer {
         System.out.println("Объем кэша CPU: " + IntelCPU.getVolumeMemory());
         System.out.println("CPU Speed: " + IntelCPU.getCpuSpeed());
         System.out.println("CPU Core Number: " + IntelCPU.getCpuNumCores());
+
+
+        Component CPU1 ;//= CPUFactory();
+        CPU1 = IntelCPU;
+        System.out.println("CPU1 Manufacturer: " + CPU1.getManufacturer());
     }
 
 }
