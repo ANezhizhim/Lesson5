@@ -11,11 +11,9 @@ public class CPU extends ComponentPC {
     private double cpuSpeed;
     private int cpuNumCores;
 
-
     public double getCpuSpeed() {
         return this.cpuSpeed;
     }
-
     public int getCpuNumCores() {
         return this.cpuNumCores;
     }

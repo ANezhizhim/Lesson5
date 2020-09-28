@@ -1,17 +1,17 @@
 package Task2;
 
 public class RAM extends ComponentPC {
-  public RAM (String name, String volMem, String tipMem, String manufacturerName, double ramSpeed){
-      super(name, volMem, tipMem, manufacturerName);
-      this.ramSpeed=ramSpeed;
-      this.componentTip = "RAM";
-  }
+    public RAM(String name, String volMem, String tipMem, String manufacturerName, double ramSpeed) {
+        super(name, volMem, tipMem, manufacturerName);
+        this.ramSpeed = ramSpeed;
+        this.componentTip = "RAM";
+    }
 
-  double ramSpeed;
+    double ramSpeed;
+
     public double getRamSpeed() {
         return this.ramSpeed;
     }
-
 
 
 }

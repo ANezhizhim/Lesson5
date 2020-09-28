@@ -9,7 +9,6 @@ public class Monitor extends ComponentPC {
         this.diagonal = diagonal;
         this.resolution = resolution;
 
-
     }
 
     private String diagonal;
@@ -22,5 +21,4 @@ public class Monitor extends ComponentPC {
     public String getResolution() {
         return this.resolution;
     }
-
 }

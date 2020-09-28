@@ -5,7 +5,7 @@ public class HDD extends ComponentPC {
         super(name, volMem, tipMem, manufacturerName);
 
         this.formFactor = formFactor;
-        this.componentTip="HDD";
+        this.componentTip = "HDD";
     }
 
     private double formFactor;
