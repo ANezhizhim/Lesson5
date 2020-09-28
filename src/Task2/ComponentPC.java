@@ -23,6 +23,12 @@ public abstract class ComponentPC implements Component {
     }
 
     @Override
+    public String getComponentTip() {
+        return this.componentTip;
+    }
+
+    //
+    @Override
     public void setName(String str) {
         this.name = str;
 
@@ -35,12 +41,12 @@ public abstract class ComponentPC implements Component {
 
     @Override
     public void setTipMemory(String str) {
-
+        this.tipMemory = str;
     }
 
     @Override
     public void setManufacturer(String str) {
-
+        this.manufacturer=str;
     }
 
     public ComponentPC(String name, String volMem, String tipMem, String manufacturerName) {
@@ -54,5 +60,6 @@ public abstract class ComponentPC implements Component {
     private String volumeMemory;
     private String tipMemory;
     private String manufacturer;
+    protected String componentTip;// тип комплектующих (CPU, RAM, HDD...)
 
 }

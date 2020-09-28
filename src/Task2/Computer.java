@@ -1,7 +1,35 @@
 package Task2;
 
 public class Computer {
+    public Computer(String name){
+        this.name=name;
+    }
+
+    private CPU cpu;
+    private RAM ram;
+    private VideoCard videoCard;
+    private HDD hdd;
+    private Monitor monitor;
+    private String name;
+
+    public void setCPU(CPU cpu){
+        this.cpu=cpu;
+    }
+    public void setRAM(RAM ram){
+        this.ram=ram;
+    }
+    public void setVideoCard(VideoCard videoCard){
+        this.videoCard=videoCard;
+    }
+    public void setHDD(HDD hdd){
+        this.hdd=hdd;
+    }
+    public void setMonitor(Monitor monitor){
+        this.monitor=monitor;
+    }
 }
+
+
 
 /*
 Задание:

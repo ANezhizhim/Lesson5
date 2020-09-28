@@ -10,6 +10,8 @@ public interface Component {
 
     String getManufacturer();
 
+    String getComponentTip();
+
     void setName(String str);
 
     void setVolumeMemory(String str);

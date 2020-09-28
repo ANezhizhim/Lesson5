@@ -5,10 +5,12 @@ public class CPU extends ComponentPC {
         super(name, volMem, tipMem, manufacturerName);
         this.cpuSpeed = cpuspeed;
         this.cpuNumCores = cpunumCores;
+        this.componentTip = "CPU";
     }
 
     private double cpuSpeed;
     private int cpuNumCores;
+
 
     public double getCpuSpeed() {
         return this.cpuSpeed;
